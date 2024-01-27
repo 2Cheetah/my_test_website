@@ -1,2 +1,2 @@
 .devcontainer/
-requirements-dev.txt
+**/requirements-dev.txt
