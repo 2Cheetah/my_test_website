@@ -11,6 +11,7 @@ The purpose of the project is to improve knowledge of web development by using f
 - yaml
 - deployment with Github Actions
 - postgresql
+- TDD
 
 # Project description
 
