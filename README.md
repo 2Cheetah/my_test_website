@@ -21,3 +21,14 @@ Run a web site with dummy content - 2 pages:
 
 The web site is to be hosted on AWS Lightsail.
 
+# High-level architecture
+
+```mermaid
+graph LR;
+	user<-->nginx
+	subgraph AWS Lightsail
+	nginx<-->webapp
+	webapp<-->postgres
+	end
+```
+
