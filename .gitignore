@@ -2,3 +2,4 @@
 requirements_dev.txt
 __pycache__/
 tests/
+.pytest_cache/
