@@ -1,2 +1,4 @@
 .devcontainer/
-**/requirements-dev.txt
+requirements_dev.txt
+__pycache__/
+tests/
