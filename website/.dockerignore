@@ -1,0 +1,4 @@
+.devcontainer/
+.pytest_cache/
+tests/
+requirements_dev.txt

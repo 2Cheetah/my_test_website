@@ -1,0 +1,6 @@
+version: '1'
+services:
+  test_fastapi_webapp:
+    image: test_fastapi_webapp:1.0
+    ports:
+      - 8000:8000
