@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/2Cheetah/my_test_website/graph/badge.svg?token=RHXRLBO590)](https://codecov.io/gh/2Cheetah/my_test_website)
+
 # Purpose
 
 The purpose of the project is to improve knowledge of web development by using following tools:
