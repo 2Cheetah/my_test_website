@@ -8,4 +8,4 @@ EXPOSE 8000
 
 RUN pip install --no-cache -r requirements.txt
 
-CMD ["python", "website/main.py"]
+CMD ["python", "webapp/main.py"]

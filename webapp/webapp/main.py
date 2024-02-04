@@ -5,14 +5,15 @@ import uvicorn
 
 app = FastAPI()
 
+BASE_URL = "/api"
 
-@app.get("/")
+@app.get(BASE_URL + "/")
 async def read_root():
     '''root handler'''
     return {"Hello": "World"}
 
 
-@app.get("/items/{item_id}")
+@app.get(BASE_URL + "/items/{item_id}")
 async def read_item(item_id: int, q: Union[str, None] = None):
     '''/items handler'''
     return {"item_id": item_id, "q": q}
